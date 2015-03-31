@@ -77,7 +77,7 @@ typedef crypto_uint64 u64;
    (ROTL64(a,56) & li_64(FF000000FF000000)))
 #endif /* IS_LITTLE_ENDIAN */
 
-typedef enum { LONG, SHORT } Var;
+typedef enum { V_LONG, V_SHORT } Var;
 
 /* NIST API begin */
 

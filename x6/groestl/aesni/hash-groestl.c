@@ -89,9 +89,9 @@ HashReturn_gr init_groestl(hashState_groestl* ctx) {
   ctx->columns = COLS;
   ctx->statesize = SIZE;
 #if (LENGTH <= 256)
-    ctx->v = SHORT;
+    ctx->v = V_SHORT;
 #else
-    ctx->v = LONG;
+    ctx->v = V_LONG;
 #endif
 
   SET_CONSTANTS();
