@@ -7,7 +7,7 @@ If building from git repo:
 	./autogen.sh
 	./configure CFLAGS="-O3 -march=native"  # march=native mandatory, for compile on AES-NI processors 
 						#or use:
-	./configure CFLAGS="-O3 -msse2 -msse3 -mssse3 -maes -mavx # if you want to compile on a different machine
+	./configure CFLAGS="-O3 -msse2 -msse3 -mssse3 -maes -mavx" # if you want to compile on a different machine
 	make
 	
 If you like to donate some mined coin here it is my DRK address:
